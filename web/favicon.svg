@@ -1,0 +1,13 @@
+<!-- Same mark as the sidebar logo. Standalone file, so colours are literal:
+     #f14949 and #49f1f1 are the red and cyan tokens in styles.css -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f14949" />
+      <stop offset="100%" stop-color="#49f1f1" />
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="58" fill="url(#g)" />
+  <rect x="30" y="30" width="196" height="196" rx="42" fill="none" stroke="white" stroke-opacity="0.22" stroke-width="6" />
+  <text x="128" y="160" text-anchor="middle" fill="white" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-weight="800" font-size="98" letter-spacing="-3">C++</text>
+</svg>
